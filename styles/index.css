@@ -7,13 +7,19 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    height: 80vh;
+    border: 1px solid black;
 }
 
 .navigation{
     display: flex;
-    align-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2;
+    height: 30%;
 }
 
 .body{
-    width: 50%;
+    padding-left: 3rem;
+    flex: 13;
 }
