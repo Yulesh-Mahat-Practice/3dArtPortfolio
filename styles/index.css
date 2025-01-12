@@ -2,3 +2,18 @@ a{
     text-decoration: none;
     color: black;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.navigation{
+    display: flex;
+    align-content: space-between;
+}
+
+.body{
+    width: 50%;
+}
