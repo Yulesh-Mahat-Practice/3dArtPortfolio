@@ -1,6 +1,11 @@
 a{
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+body{
+    background-color: hsla(195, 40%, 62%, 0.767);
+    color: white;
 }
 
 .container{
@@ -8,7 +13,8 @@ a{
     flex-direction: row;
     flex-wrap: nowrap;
     height: 80vh;
-    border: 1px solid black;
+    border: 1px solid white;
+    padding: 20px;
 }
 
 .navigation{
@@ -20,6 +26,7 @@ a{
 }
 
 .body{
+    background-color: hsla(202, 43%, 58%, 0.75);
     padding-left: 3rem;
     flex: 13;
 }
